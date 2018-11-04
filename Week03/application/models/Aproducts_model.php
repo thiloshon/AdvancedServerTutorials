@@ -5,7 +5,7 @@ class aproducts_model extends CI_Model
     function __construct()
     {
         parent::__construct();
-        $this->load->database();
+        //$this->load->database(); Or else add to autoload
     }
 
     function Lookup($product_type)
